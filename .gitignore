@@ -1,0 +1,4 @@
+# Ignore Media Folders
+media/
+__pycache__/
+slides/
