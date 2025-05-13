@@ -28,3 +28,21 @@ class BasicExample(Slide):
 
         self.play(dot.animate.move_to(ORIGIN))
 
+
+class test2(Slide):
+    def construct(self):
+        self.camera.background_color = WHITE
+        text = Text("FP016 - Computer Science", 
+                    font_size=44,
+                    font="Mononoki Nerd Font Mono",
+                    color = "PURPLE_E")
+        next_text = Text("Next slide",
+                    font_size=44,
+                    font="Mononoki Nerd Font Mono",
+                    color = "PURPLE_E")
+        self.play(Write(text))
+        self.next_slide()
+        self.play(FadeOut(text))
+        self.next_slide()
+        self.play(Write(next_text))
+
