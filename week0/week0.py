@@ -4,7 +4,7 @@ config.background_color = WHITE
 
 class Title(Scene):
     def construct(self):
-        self.play(Write(Text("Week 1 - Number Theory", color=ManimColor('#3C1053'), font='Calibri')))
+        self.play(Write(Text("Week 0 - What is Computer Science?", color=ManimColor('#3C1053'), font='Calibri')))
         self.wait(1)
         rectangle = Rectangle(width=8, height=1.5, color=ManimColor('#3C1053'))
         self.play(Create(rectangle))
