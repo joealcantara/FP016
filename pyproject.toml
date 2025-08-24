@@ -1,0 +1,16 @@
+[project]
+name = "fp016"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "manim>=0.19.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "week0",
+    "week",
+    "week1",
+]
