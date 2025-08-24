@@ -11,7 +11,6 @@ dependencies = [
 [tool.uv.workspace]
 members = [
     "week0",
-    "week",
     "week1",
     "week2",
     "week3",
@@ -28,7 +27,6 @@ members = [
     "week14",
     "week15",
     "week16",
-    "week16/week17",
     "week17",
     "week18",
     "week19",
