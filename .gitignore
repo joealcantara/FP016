@@ -11,3 +11,44 @@ wheels/
 
 # Manim Media folders
 media/
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.log
+*.lof
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+
+# Build tool files (e.g., from latexmk)
+*.fdb_latexmk
+*-blx.bib
+*.run.xml
+
+# Files created by bibliography software
+*.bib.bak
+*.bcf
+
+# Files created by indexing software
+*.idx
+*.ind
+*.ilg
+
+# Other temporary or generated files
+*.synctex.gz
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.upa
+*.upb
